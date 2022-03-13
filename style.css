@@ -55,6 +55,11 @@ body{
     border: none;
     cursor: pointer;
     }
+    
+@media screen and (max-width: 600px) {
+    .topnav 1 .search-container {
+        float: none;
+    }
 
 .topnav1 a, .topnav1 input[type=text], .topnav1 .search-container button, .topnav2 a {
      float: none;
