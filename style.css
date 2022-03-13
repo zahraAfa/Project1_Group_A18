@@ -15,7 +15,59 @@ body{
 
 
 /* Header */
+.topnav1 topnav2 {
+    overflow: hidden;
+}
 
+.topnav1 a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+    font-size: 18px;
+{
+
+.topnav1 a:hover{
+    background-color: #f5f6fa
+    color: #231709;
+    }
+
+.topnav1 search-container {
+    float: right;
+    }
+
+.topnav1 input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 18px;
+    border: none;
+    }
+
+.topnav1 search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 18px;
+    background: #ccc;
+    font-size: 19px;
+    border: none;
+    cursor: pointer;
+    }
+
+.topnav1 a, .topnav1 input[type=text], .topnav1 .search-container button, .topnav2 a {
+     float: none;
+     display: block;
+     text-align: left;
+     width: 100%
+     margin: 0;
+     padding: 14px;
+    }
+
+.topnav input[type=text] {
+    border: 1px solid #231709;
+    }
 
 /* Main */
 
