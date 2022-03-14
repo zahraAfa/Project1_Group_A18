@@ -1,29 +1,35 @@
-/* CSS styling goes here */
-/* Fonts */
-
-/* Colors */
-
-
-
-
-/* General */
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+  height: 30px;s
+  width: 30px;
 }
 
+.contact-form {
+  padding-top: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
+  height: 100px;
+}
 
-/* Header */
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
 
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
 
-/* Main */
+.footer-list {
+  float: right;
+}
 
-
-/* Body */
-
-
-/* Footer */
-
-
-/* Media Query (Responsive) */
+.footer-list li {
+  padding-bottom: 20px;
+}
