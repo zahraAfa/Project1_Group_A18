@@ -24,17 +24,47 @@ body{
 
 
 /* Footer */
-<div class="footer">
-    <div class="footer-follow">Ikuti Kami</div>
-    <div class="footer-flist">
-      <a href="#" class="btn facebook"><i class="fa fa-facebook"></i></a>
-      <a href="#" class="btn instagram"><i class="fa fa-instagram"></i></a>
-      <a href="#" class="btn twitter"><i class="fa fa-twitter"></i></a>
-    </div>
+.footer {
+    background-color: #e17055;
+    color: #fff;
+    text-align: center;
+    height: 180px;
+    padding: 20px;
+}
 
-    <div class="footer-logo">BLANJALAKU</div>
-    <p class="copyright"><i class="fa fa-copyright"> 2022 BLANJALAKU, Indonesia</i></p>
-    
-  </div>
+.footer-follow {
+    font-size: 26px;
+}
+
+.footer-flist {
+    margin: 5px 0;
+}
+
+.footer-logo {
+    font-size: 38px;
+    padding-top: 30px;
+}
+
+.btn {
+    padding: 5px 5px;
+    color: white;
+    display: inline-block;
+    opacity: 0.9;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+.btn:hover {
+    opacity: 1;
+  }
+  
+.fa {
+    margin-right: 5px;
+  }
+
+.copyright {
+    padding-top: 10px;
+    font-size: 10px;
+}
 
 /* Media Query (Responsive) */
